@@ -1,0 +1,7 @@
+#url LogUp
+path('',login , name='login'),
+path("authenticate",authenticate),
+path('index',index ,name='index'),
+
+#Url logout
+ path('logout', logout, name='logout')
