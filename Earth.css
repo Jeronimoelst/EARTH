@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    background-image: url(img/paisaje.jpg!d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    
+  }
+  .nombre {
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    border: 0
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #FFF;
+    justify-content: space-between;
+}
+
+img {
+    /*opacity: 0.4;*/
+    color: #FFF;
+    width: 62px;
+    height: 42px;
+   
+}
+
+nav ul {
+    display:inline-flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+
+/*nav ul li a:hover {
+    color: #5f2600;
+}*/
+
+.cta {
+    color: black;
+}
+
+.cta:hover {
+    background-color: rgb(94, 94, 94);
+    color: #FFF;
+}
+
+#id {
+    display: none;
+}
+/* 
+
+
+
+*/
+
+li {
+    display: block;
+    position: relative;
+    float: left;
+  }
+  
+  li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li:hover ul {
+    display: block;
+  }
+/* 
+
+
+
+
+
+*/
+.divBody1 {
+	padding: 30px;
+	margin-bottom: 50px;
+    margin-top: 10%;
+    position:flex;
+
+}
+
+.divBody1 h2 {
+	font-size: 40px;
+	margin-top: 1;
+    color: #FFF;
+    margin-right: 50%;
+
+}
+
+.divBody1 p {
+	font-size: 30px;
+	line-height: 1;
+    color: #FFF;
+    margin-right: 50%;
+}
+
+.divBody2 {
+	padding: 30px;
+	margin-bottom: 50px;
+    margin-top: 20%;
+    position:flex;
+
+}
+
+.divBody2 h2 {
+	font-size: 40px;
+	margin-top: 1;
+    color: #FFF;
+    margin-left: 50%;
+
+}
+
+.divBody2 p {
+	font-size: 30px;
+	line-height: 1;
+    color: #FFF;
+    margin-left: 50%;
+
+}
+
+
+.divBody3 {
+	padding: 30px;
+	margin-bottom: 50px;
+    margin-top: 30%;
+    position:flex;
+
+}
+
+.divBody3 h2 {
+	font-size: 40px;
+	margin-top: 1;
+    color: #FFF;
+    margin-right: 50%;
+
+}
+
+.divBody3 p {
+	font-size: 30px;
+	line-height: 1;
+    color: #FFF;
+    margin-right: 50%;
+
+}
+/* 
+
+*/
+
+
