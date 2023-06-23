@@ -6,7 +6,7 @@
   }
   
   body {
-    background-image: url(img/paisaje.jpg!d);
+    background-image: url(img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow-y: scroll;
@@ -112,79 +112,186 @@ li {
 
 
 */
-.divBody1 {
+.divBody {
 	padding: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 10%;
     margin-top: 10%;
     position:flex;
-
 }
+.divBody h2 {
+	font-size: 40px;
+	margin-top: 1;
+    color: #FFF;
+    margin-right: 50%;
+    
+}
+.divBody p {
+	font-size: 30px;
+	line-height: 1;
+    color: #FFF;
+    margin-right: 50%;
+    display: flex;
+    vertical-align: middle;
+    text-align: justify;
+}
+/* 
 
+
+
+*/
+.divBody1 {
+	padding: 30px;
+	margin-bottom: 10%;
+    margin-top: 10%;
+    position:flex;
+}
 .divBody1 h2 {
 	font-size: 40px;
 	margin-top: 1;
     color: #FFF;
     margin-right: 50%;
-
 }
-
 .divBody1 p {
 	font-size: 30px;
 	line-height: 1;
     color: #FFF;
     margin-right: 50%;
+    display: flex;
+    vertical-align: middle;
+    text-align: justify;
 }
+.divBody1 img {
+        color: #FFF;
+        width: 380px;
+        height: 225px;
+        display: inline-flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: flex-end;
+        float: left; 
+        max-width: 100%;
+        float: right;
+        padding-right: 5%;
+}
+/* 
 
+
+
+*/
 .divBody2 {
 	padding: 30px;
-	margin-bottom: 50px;
-    margin-top: 20%;
+	margin-bottom: 10%;
+    margin-top: 10%;
     position:flex;
-
 }
-
 .divBody2 h2 {
 	font-size: 40px;
 	margin-top: 1;
     color: #FFF;
     margin-left: 50%;
-
 }
-
 .divBody2 p {
 	font-size: 30px;
 	line-height: 1;
     color: #FFF;
     margin-left: 50%;
-
+    text-align: justify;
 }
+.divBody2 img {
+    color: #FFF;
+    width: 380px;
+    height: 225px;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    float: left; 
+    max-width: 100%;
+    float: left;
+    padding-left: 5%;
+}
+/* 
 
 
+
+*/
 .divBody3 {
 	padding: 30px;
-	margin-bottom: 50px;
-    margin-top: 30%;
+	margin-bottom: 10%;
+    margin-top: 10%;
     position:flex;
-
+    margin-bottom: 10%;
 }
-
 .divBody3 h2 {
 	font-size: 40px;
 	margin-top: 1;
     color: #FFF;
     margin-right: 50%;
-
 }
-
 .divBody3 p {
 	font-size: 30px;
 	line-height: 1;
     color: #FFF;
     margin-right: 50%;
-
+}
+.divBody3 img {
+    color: #FFF;
+    width: 380px;
+    height: 225px;
+    display: inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    float: left; 
+    max-width: 100%;
+    float: right;
+    padding-right: 5%;
 }
 /* 
 
+
+
+
 */
+footer {
+    background-color:#FFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .buttons-container img{
+    color: #FFF;
+    width: 62px;
+    height: 42px;
+  }
+  .ct{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+  }
+  .ct {
+    color: black;
+}
+
+.ct:hover {
+    background-color: rgb(94, 94, 94);
+    color: #FFF;
+}
+
+ 
+  
+
+  
 
 
