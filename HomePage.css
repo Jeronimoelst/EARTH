@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    background-image: url('https://images.unsplash.com/photo-1485470733090-0aae1788d5af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1517&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    
+  }
+  .nombre {
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    border: 0
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #FFF;
+    justify-content: space-between;
+}
+
+img {
+    color: #FFF;
+    width: 62px;
+    height: 42px;
+   
+}
+
+nav ul {
+    display:inline-flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav ul li a {
+    color:#FFF;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+
+.cta {
+    color: black;
+}
+
+.cta:hover {
+    background-color: rgb(94, 94, 94);
+    color: #FFF;
+}
+
+#id {
+    display: none;
+}
+/* 
+
+
+
+*/
+
+li {
+    display: block;
+    position: relative;
+    float: left;
+  }
+  
+  li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li:hover ul {
+    display: block;
+  }
+  /* 
+  
+  
+  
+  */
+  footer {
+    background-color:#FFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .buttons-container img{
+    color: #FFF;
+    width: 62px;
+    height: 42px;
+  }
+  .ct{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+  }
+  .ct {
+    color: black;
+}
+
+.ct:hover {
+    background-color: rgb(94, 94, 94);
+    color: #FFF;
+}

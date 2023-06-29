@@ -41,7 +41,6 @@ header {
 }
 
 img {
-    /*opacity: 0.4;*/
     color: #FFF;
     width: 62px;
     height: 42px;
@@ -65,9 +64,6 @@ nav ul li a {
     border-radius: 1px;
 }
 
-/*nav ul li a:hover {
-    color: #5f2600;
-}*/
 
 .cta {
     color: black;
@@ -148,7 +144,7 @@ li {
 .divBody1 {
 	padding: 30px;
 	margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 1%;
     position:flex;
 }
 .divBody1 h2 {
@@ -163,6 +159,7 @@ li {
     color: #FFF;
     margin-right: 50%;
     margin-left: 10%;
+    width: 55%;
 }
 .divBody1 img {
     height: 200px;
@@ -197,6 +194,7 @@ li {
     margin-left: 50%;
     margin-right: 10%;
     text-align: justify;
+    width: 45%;
 }
 .divBody2 img {
     height: 200px;
@@ -231,6 +229,8 @@ li {
     color: #FFF;
     margin-right: 50%;
     margin-left: 10%;
+    width: 55%;
+
 }
 .divBody3 img {
     height: 200px;
@@ -252,6 +252,10 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+
+
   }
   
   .buttons-container {
